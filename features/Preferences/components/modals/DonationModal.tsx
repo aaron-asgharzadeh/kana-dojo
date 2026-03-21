@@ -36,10 +36,10 @@ export default function DonationModal({
             <DialogPrimitive.Title className='text-2xl font-semibold text-(--main-color)'>
               A small favor, if you can
             </DialogPrimitive.Title>
-            <Heart className='size-8 fill-current text-(--secondary-color)' />
+            {/* <Heart className='size-8 fill-current text-(--secondary-color)' /> */}
             <button
               onClick={handleClose}
-              className='shrink-0 rounded-xl p-2 hover:cursor-pointer hover:bg-(--card-color)'
+              className='shrink-0 rounded-xl p-2 hover:cursor-pointer hover:bg-(--border-color)'
             >
               <X size={24} className='text-(--secondary-color)' />
             </button>
@@ -50,7 +50,7 @@ export default function DonationModal({
               <div className='space-y-4 text-(--secondary-color)'>
                 <p className='text-lg leading-7'>
                   Thank you so much for spending your time with KanaDojo. We
-                  are truly honored to be part of your learning journey.
+                  are truly honored to be a part of your Japanese learning journey.
                 </p>
                 <p className='text-base leading-7'>
                   If KanaDojo has been helpful to you, we would be incredibly
